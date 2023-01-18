@@ -1,0 +1,1135 @@
+body {
+    margin: 0px;
+}
+
+.page-1 {
+    height: 95vh;
+}
+
+.page-1 .navbar {
+    position: relative;
+    left: 12%;
+    width: 100px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flexbox1 .grp1 {
+    position: relative;
+    top: 100px;
+    left: 12%;
+}
+
+.flexbox1 .label .labelHead {
+    width: 376px;
+}
+
+.flexbox1 .label .labelHead h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexbox1 .label .labelBody {
+    width: 451px;
+}
+
+.flexbox1 .label .labelBody p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #5A5A5A;
+}
+
+.flexbox1 .img img {
+    width: 704px;
+    height: 500px;
+}
+
+.flexbox1 .searchBar {
+    margin-top: 35px;
+}
+
+.searchBar button {
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3F43E4;
+    color: white;
+}
+
+.searchBar input {
+    padding: 8px;
+}
+
+.page-2 {
+    height: 95vh;
+    box-shadow: 0px 60px 50px 4px #c2cce3;
+    /* height: 100%; */
+}
+
+.flexbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flexbox2 .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox2 .about h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.flexbox2 .about p {
+    width: 475px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #5A5A5A;
+    /* margin-top: 10px */
+}
+
+.card {
+    height: 285px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px #ccc6c9;
+    background-color: white;
+}
+
+.flexbox2 .cardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox2 .cardContainer .cardBox1 {
+    margin-right: 15px;
+}
+
+.flexbox2 .cardContainer .cardBox2 {
+    margin-left: 15px;
+    position: relative;
+    top: 50px;
+}
+
+.flexbox2 .cardContainer .cardInfo {
+    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.flexbox2 .cardContainer .cardTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    position: relative;
+    top: 8px;
+}
+
+.card .logo1 {
+    border-radius: 50%;
+    padding: 6%;
+    border: 10px solid rgba(237, 133, 183, 0.5);
+    color: #ed85b7;
+    position: relative;
+    bottom: 10px;
+}
+
+.card .logo2 {
+    border-radius: 50%;
+    padding: 6%;
+    border: 10px solid rgba(67, 170, 139, 0.5);
+    color: #43aa8b;
+    position: relative;
+    bottom: 10px;
+}
+
+.card .logo3 {
+    border-radius: 50%;
+    padding: 6%;
+    border: 10px solid rgba(244, 162, 97, 0.5);
+    color: #f4a261;
+    position: relative;
+    bottom: 10px;
+}
+
+.card .logo4 {
+    border-radius: 50%;
+    padding: 6%;
+    border: 10px solid rgba(118, 120, 237, 0.5);
+    color: #7678ed;
+    position: relative;
+    bottom: 10px;
+}
+
+.flexbox3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexbox3 h2 {
+    margin-top: 290px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #3F43E4;
+    position: relative;
+    top: 80px;
+    right: 87px;
+    z-index: 0;
+}
+
+.reviewCard1 {
+    height: 146px;
+    width: 250px;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    bottom: 197px;
+    left: 127px;
+    box-shadow: 15px -6px 40px 0px #ccc6c9;
+}
+
+.flexbox3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 23px;
+    left: 18px;
+}
+
+.reviewCard2 {
+    height: 146px;
+    width: 250px;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    right: 159px;
+    box-shadow: -10px 3px 20px 0px #ccc6c9;
+}
+
+.reviewCard3 {
+    height: 146px;
+    width: 250px;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    bottom: 240px;
+    box-shadow: 12px 11px 40px 0px #ccc6c9;
+}
+
+.flexbox3 .info {
+    padding: 0px 20px;
+    position: relative;
+    bottom: 23px;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.flexbox3 .name {
+    padding: 5px 0px;
+    position: relative;
+    bottom: 37px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    left: 19px;
+    color: #3F43E4;
+}
+
+.footer {
+    height: 65vh;
+    background-color: #03045e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .footerBox1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .footerBox1 hr {
+    width: 100%;
+    margin-top: 118px;
+    position: relative;
+    bottom: 50px;
+    border: 0.5px solid white;
+    background-color: white;
+}
+
+.footerBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBox1 h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 70px;
+}
+
+.footerBox1 .foot {
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.footerLogo h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.footerLogo p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.footerBox2 .footerSocial .footerInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 7px;
+}
+
+.footerBox2 .footerSocial .footerInfo p {
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.footerBox2 .footerSocial .icons {
+    display: flex;
+    justify-content: end;
+}
+
+.footerBox2 .footerSocial .icons i {
+    padding-left: 20px;
+    color: white;
+}
+
+.footerBox1 .footerBox2 .footerLogo {
+    position: relative;
+    bottom: 25px;
+}
+
+
+@media (max-width: 768px) and (min-width: 430px) {
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .page-1 {
+        /* height: 100%; */
+        overflow-x: hidden;
+        width: 100%;
+        /* overflow-y: hidden; */
+    }
+
+    .page-1 .navbar {
+        position: relative;
+        left: 4%;
+        width: 100px;
+    }
+
+    .flexbox1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .flexbox1 .grp1 {
+        position: relative;
+        top: 100px;
+        left: 4%;
+        height: 100%;
+    }
+
+    .flexbox1 .label .labelHead {
+        width: 376px;
+    }
+
+    .flexbox1 .label .labelHead h1 {
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .flexbox1 .label .labelBody {
+        width: 427px;
+    }
+
+    .flexbox1 .label .labelBody p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: #5A5A5A;
+    }
+
+    .flexbox1 .img img {
+        width: 704px;
+        height: 500px;
+        position: relative;
+        left: 66px;
+    }
+
+    .flexbox1 .searchBar {
+        margin-top: 35px;
+    }
+
+    .searchBar button {
+        padding: 10px 20px;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        background-color: #3F43E4;
+        color: white;
+    }
+
+    .searchBar input {
+        padding: 8px;
+        width: 230px;
+    }
+
+    .page-2 {
+        height: 95vh;
+        box-shadow: 0px 60px 50px 4px #c2cce3;
+        /* height: 100%; */
+    }
+
+    .flexbox2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flexbox2 .about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexbox2 .about h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+
+    .flexbox2 .about p {
+        width: 475px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #5A5A5A;
+        /* margin-top: 10px */
+    }
+
+    .card {
+        height: 285px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        box-shadow: 0px 0px 10px #ccc6c9;
+        background-color: white;
+    }
+
+    .flexbox2 .cardContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .flexbox2 .cardContainer .cardBox1 {
+        margin-right: 15px;
+    }
+
+    .flexbox2 .cardContainer .cardBox2 {
+        margin-left: 15px;
+        position: relative;
+        top: 0px;
+    }
+
+    .flexbox2 .cardContainer .cardInfo {
+        padding: 0px 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .flexbox2 .cardContainer .cardTitle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-top: 0px;
+        position: relative;
+        top: 8px;
+    }
+
+    .card .logo1 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(237, 133, 183, 0.5);
+        color: #ed85b7;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo2 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(67, 170, 139, 0.5);
+        color: #43aa8b;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo3 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(244, 162, 97, 0.5);
+        color: #f4a261;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo4 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(118, 120, 237, 0.5);
+        color: #7678ed;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .flexbox3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flexbox3 h2 {
+        margin-top: 390px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+
+    .circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: #3F43E4;
+        position: relative;
+        top: 80px;
+        right: 87px;
+        z-index: 0;
+    }
+
+    .reviewCard1 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: 197px;
+        left: 127px;
+        box-shadow: 15px -6px 40px 0px #ccc6c9;
+    }
+
+    .flexbox3 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: relative;
+        bottom: 23px;
+        left: 18px;
+    }
+
+    .reviewCard2 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: 300px;
+        right: 159px;
+        box-shadow: -10px 3px 20px 0px #ccc6c9;
+    }
+
+    .reviewCard3 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: 240px;
+        box-shadow: 12px 11px 40px 0px #ccc6c9;
+    }
+
+    .flexbox3 .info {
+        padding: 0px 20px;
+        position: relative;
+        bottom: 23px;
+        width: 80%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .flexbox3 .name {
+        padding: 5px 0px;
+        position: relative;
+        bottom: 37px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        left: 19px;
+        color: #3F43E4;
+    }
+
+    .footer {
+        height: 100%;
+        background-color: #03045e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .footerBox1 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .footerBox1 hr {
+        width: 100%;
+        margin-top: 118px;
+        position: relative;
+        bottom: 50px;
+        border: 0.5px solid white;
+        background-color: white;
+    }
+
+    .footerBox2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footerBox1 h1 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-top: 70px;
+    }
+
+    .footerBox1 .foot {
+        width: 70%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .footerLogo h3 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+
+    .footerLogo p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 10px;
+    }
+
+    .footerBox2 .footerSocial .footerInfo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 7px;
+    }
+
+    .footerBox2 .footerSocial .footerInfo p {
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+
+    .footerBox2 .footerSocial .icons {
+        display: flex;
+        justify-content: end;
+    }
+
+    .footerBox2 .footerSocial .icons i {
+        padding-left: 20px;
+        color: white;
+    }
+
+    .footerBox1 .footerBox2 .footerLogo {
+        position: relative;
+        bottom: 25px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .page-1 {
+        height: 140vh;
+        overflow-x: hidden;
+    }
+
+    .page-1 .navbar {
+        position: relative;
+        left: 4%;
+        width: 100px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .flexbox1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flexbox1 .grp1 {
+        position: relative;
+        top: 26px;
+        left: 0%;
+        height: 100%;
+    }
+
+    .flexbox1 .label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flexbox1 .label .labelHead {
+        width: 314px;
+    }
+
+    .flexbox1 .label .labelHead h1 {
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .flexbox1 .label .labelBody {
+        width: 320px;
+    }
+
+    .flexbox1 .label .labelBody p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: #5A5A5A;
+        text-align: center;
+    }
+
+    .flexbox1 .img img {
+        width: 384px;
+        height: 300px;
+        position: relative;
+        left: 0px;
+        top: 68px;
+    }
+
+    .searchBar {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .searchBar button {
+        margin-top: 7px;
+        padding: 10px 20px;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        background-color: #3F43E4;
+        color: white;
+    }
+
+    .searchBar input {
+        padding: 8px;
+        width: 94%;
+    }
+
+    .page-2 {
+        height: 90%;
+        box-shadow: 0px 60px 50px 4px #c2cce3;
+        /* height: 100%; */
+    }
+
+    .flexbox2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flexbox2 .about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexbox2 .about h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        margin-top: 68px;
+    }
+
+    .flexbox2 .about p {
+        width: 390px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #5A5A5A;
+        /* margin-top: 10px */
+    }
+
+    .card {
+        height: 285px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        box-shadow: 0px 0px 10px #ccc6c9;
+        background-color: white;
+    }
+
+    .flexbox2 .cardContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flexbox2 .cardContainer .cardBox1 {
+        margin-right: 0px;
+    }
+
+    .flexbox2 .cardContainer .cardBox2 {
+        margin-left: 0px;
+        position: relative;
+        top: 0px;
+    }
+
+    .flexbox2 .cardContainer .cardInfo {
+        padding: 0px 15px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .flexbox2 .cardContainer .cardTitle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-top: 0px;
+        position: relative;
+        top: 8px;
+    }
+
+    .card .logo1 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(237, 133, 183, 0.5);
+        color: #ed85b7;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo2 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(67, 170, 139, 0.5);
+        color: #43aa8b;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo3 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(244, 162, 97, 0.5);
+        color: #f4a261;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .card .logo4 {
+        border-radius: 50%;
+        padding: 6%;
+        border: 10px solid rgba(118, 120, 237, 0.5);
+        color: #7678ed;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .flexbox3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flexbox3 h2 {
+        margin-top: 101px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+
+    .circle {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #3F43E4;
+        position: relative;
+        top: 425px;
+        right: -40px;
+        z-index: 0;
+    }
+
+    .reviews {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 58px;
+    }
+
+    .reviewCard1 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: -261px;
+        left: 1px;
+        box-shadow: 15px -6px 40px 0px #ccc6c9;
+    }
+
+    .flexbox3 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: relative;
+        bottom: 23px;
+        left: 18px;
+    }
+
+    .reviewCard2 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: 300px;
+        right: 3px;
+        box-shadow: -10px 3px 20px 0px #ccc6c9;
+    }
+
+    .reviewCard3 {
+        height: 146px;
+        width: 250px;
+        z-index: 1;
+        background-color: white;
+        position: relative;
+        bottom: 240px;
+        box-shadow: 12px 11px 40px 0px #ccc6c9;
+    }
+
+    .flexbox3 .info {
+        padding: 0px 20px;
+        position: relative;
+        bottom: 23px;
+        width: 80%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .flexbox3 .name {
+        padding: 5px 0px;
+        position: relative;
+        bottom: 37px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        left: 19px;
+        color: #3F43E4;
+    }
+
+    .footer {
+        height: 100%;
+        background-color: #03045e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+
+    .footer .footerBox1 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .footerBox1 .searchBar {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .footer .footerBox1 .searchBar input {
+        padding: 8px;
+        width: 94%;
+    }
+
+    .footer .footerBox1 hr {
+        width: 86%;
+        margin-top: 94px;
+        position: relative;
+        bottom: 50px;
+        border: 0.5px solid white;
+        background-color: white;
+    }
+
+    .footerBox2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footerBox1 h1 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-top: 70px;
+    }
+
+    .footerBox1 .foot {
+        width: 70%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .footerLogo h3 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+
+    .footerLogo p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 10px;
+        position: relative;
+        top: 66px;
+    }
+
+    .footerBox2 .footerSocial .footerInfo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 7px;
+        position: relative;
+        bottom: 89px;
+    }
+
+
+    .footerBox2 .footerSocial .footerInfo p {
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+
+    .footerBox2 .footerSocial .icons {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 18px;
+        left: -10px;
+    }
+
+    .footerBox2 .footerSocial .icons i {
+        padding-left: 20px;
+        color: white;
+    }
+
+    .footerBox1 .footerBox2 .footerLogo {
+        position: relative;
+        bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerBox1 .footerBox2 .footerSocial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
